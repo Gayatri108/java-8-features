@@ -26,7 +26,7 @@ public class StreamApi {
 		values.forEach(i -> System.out.print(i + " "));
 		System.out.println();
 
-		System.out.print("printing only odd numbers:");
+		System.out.print("printing only odd numbers::------");
 
 		values.stream().filter(i -> i % 2 != 0).forEach(i -> System.out.print(i + " "));
 		System.out.println();
