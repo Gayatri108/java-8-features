@@ -1,7 +1,7 @@
 package com.core.java;
 
 interface FunctionalInterface {
-	int add(int a, int b);
+	int add(int a, int b);;;;;
 }
 
 class Test implements FunctionalInterface {
